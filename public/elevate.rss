@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">  <channel>
     <atom:link href="http://faithpromise.org/elevate.rss" rel="self" type="application/rss+xml"/>
     <atom:link href="http://faithpromise.org/elevate.rss?before=276998408" rel="next" type="application/rss+xml"/>
-    <title>Elevate. Leadership Training at Faith Promise Church</title>
+    <title>Elevate. Leadership Training at Generic Church Church</title>
     <link>http://faithpromise.org/elevate</link>
     <pubDate>Mon, 29 Aug 2016 13:46:20 +0000</pubDate>
     <lastBuildDate>Mon, 29 Aug 2016 13:46:20 +0000</lastBuildDate>
     <ttl>60</ttl>
     <language>en</language>
     <copyright>All rights reserved</copyright>
-    <webMaster>webmaster@faithpromise.org (Faith Promise Church)</webMaster>
-    <description>Leadership lessons by Faith Promise Church</description>
-    <itunes:subtitle>Leadership lessons by Faith Promise Church</itunes:subtitle>
+    <webMaster>webmaster@faithpromise.org (Generic Church Church)</webMaster>
+    <description>Leadership lessons by Generic Church Church</description>
+    <itunes:subtitle>Leadership lessons by Generic Church Church</itunes:subtitle>
     <itunes:owner>
-      <itunes:name>Faith Promise Church</itunes:name>
+      <itunes:name>Generic Church Church</itunes:name>
       <itunes:email>webmaster@faithpromise.org</itunes:email>
     </itunes:owner>
-    <itunes:author>Faith Promise Church</itunes:author>
+    <itunes:author>Generic Church Church</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="http://s3-us-west-2.amazonaws.com/elevate.faithpromise.org/elevate-square.jpg"/>
     <image>
       <url>http://s3-us-west-2.amazonaws.com/elevate.faithpromise.org/elevate-square.jpg</url>
-      <title>Faith Promise Church</title>
+      <title>Generic Church Church</title>
       <link>http://faithpromise.org</link>
     </image>
     <itunes:category text="Religion &amp; Spirituality"/>

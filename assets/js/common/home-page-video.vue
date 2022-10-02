@@ -11,7 +11,7 @@
     </video>
     <div class="HeaderVideo-overlay"></div>
     <div class="HeaderVideo-container">
-      <h1 class="HeaderVideo-title">Welcome to<br>Faith Promise</h1>
+      <h1 class="HeaderVideo-title">Welcome to<br>Generic Church</h1>
       <div class="HeaderVideo-actions">
         <a class="Button" href="/locations">Find a Location</a>
         <a class="Button" href="http://online.faithpromise.org">Watch Online</a>

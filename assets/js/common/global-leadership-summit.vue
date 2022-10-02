@@ -3,7 +3,7 @@
 
     <!--Select ticket type-->
     <div v-show="!ticket_type">
-      <p>Are you a regular attender at Faith Promise Church?</p>
+      <p>Are you a regular attender at Generic Church Church?</p>
       <button class="Button" type="button" @click="setAttender">Yes</button>
       <button class="Button" type="button" @click="setGuest">No</button>
     </div>
@@ -16,10 +16,10 @@
 
     <!--Code-->
     <div v-if="should_enter_code">
-      <p>Let's get you registered for the {{ selected_campus.name }} Campus. Please enter the Faith Promise priority code.</p>
+      <p>Let's get you registered for the {{ selected_campus.name }} Campus. Please enter the Generic Church priority code.</p>
       <iframe :src="selected_campus.attender_url" width="350" height="100" style="border: 0;"></iframe>
       <p>
-        If you're a regular attender at Faith Promise Church, and you don't have the church priority code, please contact Brenda Moore at
+        If you're a regular attender at Generic Church Church, and you don't have the church priority code, please contact Brenda Moore at
         <a href="mailto:brendam@faithpromise.org">brendam@faithpromise.org</a>.
       </p>
     </div>

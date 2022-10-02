@@ -15,7 +15,7 @@ class MinistryPlatformPlugin extends BasePlugin {
     }
 
     function getDeveloper() {
-        return 'Faith Promise';
+        return 'Generic Church';
     }
 
     function getDeveloperUrl() {

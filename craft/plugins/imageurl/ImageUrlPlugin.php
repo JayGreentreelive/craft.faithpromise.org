@@ -108,7 +108,7 @@ class ImageUrlPlugin extends BasePlugin {
      * @return string
      */
     public function getDeveloper() {
-        return 'Faith Promise';
+        return 'Generic Church';
     }
 
     /**

@@ -25,7 +25,7 @@ class MailTrapPlugin extends BasePlugin {
     }
 
     public function getDeveloper() {
-        return 'Faith Promise';
+        return 'Generic Church';
     }
 
     public function getDeveloperUrl() {

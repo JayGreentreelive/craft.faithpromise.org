@@ -12,7 +12,7 @@
  * --snip--
  *
  * @author    Brad Roberts
- * @copyright Copyright (c) 2017 Faith Promise Church
+ * @copyright Copyright (c) 2017 Generic Church Church
  * @link      http://faithpromise.org
  * @package   ImageUrl
  * @since     0.0.0

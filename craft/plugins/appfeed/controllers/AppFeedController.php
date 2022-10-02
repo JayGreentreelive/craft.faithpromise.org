@@ -182,7 +182,7 @@ class AppFeedController extends BaseController {
         $alignment_entries = craft()->elements->getCriteria(ElementType::Entry)->type('alignments')->with('alignmentImage')->limit(null)->order('postDate desc')->find();
 
         $data = [
-            'providerName'    => 'Faith Promise Church',
+            'providerName'    => 'Generic Church Church',
             'lastUpdated'     => $today->atom(),
             'language'        => 'en-US',
             'series'          => [],
@@ -219,7 +219,7 @@ class AppFeedController extends BaseController {
                         'thumbnail'        => $seriesImage,
                         'episodeNumber'    => --$episode_number,
                         'releaseDate'      => $media->postDate->format(DateTime::W3C_DATE),
-                        'shortDescription' => $media->text ?: $media->title . ' is a video from Faith Promise Church.',
+                        'shortDescription' => $media->text ?: $media->title . ' is a video from Generic Church Church.',
                     ];
                 }
             }
@@ -232,7 +232,7 @@ class AppFeedController extends BaseController {
                     'genres'           => ['educational'], // TODO: What are the available genres?
                     'thumbnail'        => $seriesImage,
                     'releaseDate'      => $series->postDate->format(DateTime::W3C_DATE),
-                    'shortDescription' => $series->text ?: $series->title . ' is a sermon series from Faith Promise Church.',
+                    'shortDescription' => $series->text ?: $series->title . ' is a sermon series from Generic Church Church.',
                     'tags'             => ['sermon'],
                 ];
             }
@@ -265,7 +265,7 @@ class AppFeedController extends BaseController {
                         'thumbnail'        => $alignmentImage,
                         'episodeNumber'    => --$episode_number,
                         'releaseDate'      => $media->postDate->format(DateTime::W3C_DATE),
-                        'shortDescription' => $media->title . ' - Part of ' . $alignment->title . ', a group alignment from Faith Promise Church.',
+                        'shortDescription' => $media->title . ' - Part of ' . $alignment->title . ', a group alignment from Generic Church Church.',
                     ];
                 }
             }
@@ -278,7 +278,7 @@ class AppFeedController extends BaseController {
                     'genres'           => ['educational'], // TODO: What are the available genres?
                     'thumbnail'        => $alignmentImage,
                     'releaseDate'      => $alignment->postDate->format(DateTime::W3C_DATE),
-                    'shortDescription' => $alignment->title . ' is a group alignment from Faith Promise Church.',
+                    'shortDescription' => $alignment->title . ' is a group alignment from Generic Church Church.',
                     'tags'             => ['study'],
                 ];
             }
